@@ -1,0 +1,78 @@
+.contact-inner{
+    padding: 100px 120px;
+}
+
+.contact-links__inner{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    grid-column-gap: 0px;
+}
+
+.contact-links__block--about > .text{
+    margin-top: 24px;
+}
+
+.contact-links__block-position{
+    display: block;
+    margin-top: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-links__block-position:hover{
+    text-decoration: underline;
+}
+
+.contact-tie__inner{
+    margin-top: 40px;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    padding: 32px 0px;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-column-gap: 0px;
+}
+
+.contact-tie__block > .text{
+    margin-top: 16px;
+}
+
+.contact-tie__block-mail{
+    height: 100%;
+}
+
+.contact-tie__block-bar{
+    height: 100%;
+    background: #F9FAFB;
+    border: 1px solid #E5E7EB;
+    box-sizing: border-box;
+    border-radius: 12px;
+    display: flex;
+    justify-content: end;
+    padding: 12px;
+}
+
+.contact-tie__block-fill{
+    background: #000000;
+    border-radius: 12px;
+    width: 30%;
+}
+
+.contact-footer__inner{
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+}   
+
+.contact-footer__block{
+    display: flex;
+}
+
+.contact-footer__block-icon{
+    display: block;
+    margin-left: 24px;
+}
+
+.contact-footer__block-icon > svg{
+    vertical-align: middle;
+}

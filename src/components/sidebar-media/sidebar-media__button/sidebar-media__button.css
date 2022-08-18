@@ -1,0 +1,43 @@
+@media (min-width: 1360px ){
+    .sidebar-media__button-inner{
+        display: none;
+    }
+}
+
+.sidebar-media__button-inner{
+    width: 70px;
+    height: 62px;
+    padding: 23px;
+    margin-left: 40px;
+}
+
+.sidebar-media__button{
+    display: block;
+    width: 24px;
+    height: 16px;
+    position: relative;
+}
+
+.sidebar-media__button--active{
+
+}
+
+.sidebar-media__button-bar{
+    width: 24px;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+}
+
+.sidebar-media__button > .sidebar-media__button-bar:first-child{
+    top: 0;
+}
+
+.sidebar-media__button > .sidebar-media__button-bar:nth-child(2){
+    top: 7px;
+}
+
+.sidebar-media__button > .sidebar-media__button-bar:last-child{
+    top: 14px;
+}

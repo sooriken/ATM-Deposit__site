@@ -1,0 +1,11 @@
+@media (max-width:1360px)  {
+    .header-inner{
+        padding: 30px 40px;
+    }
+    .header-nav__inner{
+        display: none;
+    }
+    .header-inner > .button-inner{
+        display: none;
+    }
+}

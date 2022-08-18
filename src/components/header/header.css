@@ -1,0 +1,72 @@
+.header-inner{
+    display: flex;
+    width: inherit;
+    height: 122px;
+    justify-content: space-between;
+    padding: 30px 130px;
+    background: #181818;
+    background: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 16;
+}
+
+.header-nav__inner{
+    flex-grow: 1;
+    display: flex;
+    justify-content: end;
+    padding: 10px 0;
+    margin: 0 40px;
+}
+
+.header-nav__item{
+    display: block;
+    margin-left: 50px;
+    cursor: pointer;
+    line-height: 42px;
+}
+
+
+.header-nav__item:hover {
+ text-decoration: underline;
+}   
+
+.header-inner > .button-inner{
+    margin-top: 0;
+}
+
+/* "--active" item modifier */
+.header-inner--active{
+    width: 60%;
+}
+
+
+.header-inner--active > .sidebar-media__button-inner > .sidebar-media__button > .sidebar-media__button-bar:first-child{
+    top: 7px;
+    transform: rotate(45deg);
+}
+
+.header-inner--active > .sidebar-media__button-inner > .sidebar-media__button > .sidebar-media__button-bar:nth-child(2){
+    display: none;
+}
+
+.header-inner--active > .sidebar-media__button-inner > .sidebar-media__button > .sidebar-media__button-bar:last-child{
+    top: 7px;
+    transform: rotate(135deg);
+}
+
+.header-inner--active{
+    width: 60%;
+}
+
+@media (max-width: 1360px ){
+    .header-logo{
+        text-align: center;
+        flex-grow: 1;
+        margin-right: 110px;
+    }
+    .header-inner{
+        z-index: 21;
+    }
+}

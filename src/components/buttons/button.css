@@ -1,0 +1,27 @@
+.button-inner{
+    display: flex;
+    margin-top: 16px;
+}
+
+.button{
+    display: flex;
+    background: #FFFFFF;
+    border-radius: 14px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid transparent;
+    transition: all .5s ease;
+    cursor: pointer;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.button:hover{
+    background: #000;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: all .5s ease;
+}
